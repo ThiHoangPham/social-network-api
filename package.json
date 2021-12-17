@@ -1,0 +1,26 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "Building an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. Using Express.js for routing, a MongoDB database, and the Mongoose ODM, also optionally use a JavaScript date library of your choice or the native JavaScript `Date` object to format timestamps",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiHoangPham/social-network-api.git"
+  },
+  "author": "Thai Hoang Pham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThiHoangPham/social-network-api/issues"
+  },
+  "homepage": "https://github.com/ThiHoangPham/social-network-api#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.2",
+    "nodemon": "^2.0.15"
+  }
+}
