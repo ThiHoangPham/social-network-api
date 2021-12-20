@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 
-const app = expresss();
+const app = express();
 const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
@@ -18,4 +18,4 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/socialNetworkAp
 
 mongoose.set('debug', true);
 
-app.listen(PORT, () => console.log(`API server running on port ${PORT}!`));
+app.listen(PORT, () => console.log(`API server running on 🌱 http://localhost:${PORT} 🌱`));
