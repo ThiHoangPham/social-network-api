@@ -18,10 +18,9 @@
   },
   "homepage": "https://github.com/ThiHoangPham/social-network-api#readme",
   "dependencies": {
-    "express": "^4.17.2",
+    "express": "^4.17.1",
     "moment": "^2.29.1",
-    "mongoose": "^6.1.2",
-    "nodemon": "^2.0.15",
-    "validate": "^5.1.0"
+    "mongoose": "^5.12.5",
+    "nodemon": "^2.0.7"
   }
 }

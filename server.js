@@ -10,7 +10,7 @@ app.use(express.static('public'));
 
 app.use(require('./routes'));
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/socialNetworkApi', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/socialNetworkApiDB', {
     useFindAndModify: false,
     useNewUrlParser: true,
     useUnifiedTopology: true
@@ -18,4 +18,4 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/socialNetworkAp
 
 mongoose.set('debug', true);
 
-app.listen(PORT, () => console.log(`API server running on 🌱 http://localhost:${PORT} 🌱`));
+app.listen(PORT, () => console.log(`🌍 API is Connected on http://localhost:${PORT}/ 🌱`));
