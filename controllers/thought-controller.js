@@ -11,6 +11,7 @@ const thoughtController = {
     //get one thought by id
     getThoughtById({ params }, res) {
         Thought.findOne({ _id: params.id })
+            .populate({ path: 'thoughts', select: '-__v' })
             .select('-__v')
             .sort({ _id: -1 })
             .then(dbThoughtData => {

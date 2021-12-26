@@ -19,7 +19,7 @@
   <a href="#">
   <img alt="rep size" src="https://img.shields.io/github/repo-size/ThiHoangPham/social-network-api?style=flat-square" target="_blank" />
   <a href="https://github.com/ThiHoangPham/social-network-api/blob/main/LICENSE">
-  <img alt="License: GNU 3.0" src="https://img.shields.io/badge/license-GNU-yellow.svg?style=flat-square" target="_blank" />
+  <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg?style=flat-square" target="_blank" />
   </a>
   <a href="#">
   <img alt="fork" src="https://img.shields.io/github/forks/ThiHoangPham/social-network-api.svg?style=flat-square" target="_blank" />
@@ -43,7 +43,7 @@
       <a href="https://github.com/ThiHoangPham/social-network-api"><strong>Explore the docs »</strong></a>
       <br />
       <br />
-      <a href="#">Video Demo</a>
+      <a href="#walkthrough-video">Video Demo</a>
       ·
       <a href="https://github.com/ThiHoangPham/social-network-api/issues">Report Bug</a>
       ·
@@ -57,7 +57,6 @@
       <li><a href="#about-the-project">About The Project</a>
       <li><a href="#user-story">User Story</a></li>
       <li><a href="#acceptance-criteria">Acceptance Criteria</a></li>
-      <li><a href="#mock-up">Mock Up</a></li>
       <li><a href="#walkthrough-video">Walkthrough Video</a></li>
       <li><a href="#installation">Installation</a></li>
       <li><a href="#usage">Usage</a></li>
@@ -91,14 +90,28 @@ THEN I am able to successfully create, update, and delete users and thoughts in 
 WHEN I test API POST and DELETE routes in Insomnia
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 ```
-# Mock Up
-![Social Network API](./assets/e-commerce-back-end.png)
 
 # Walkthrough Video
 <a href="#">
   <img alt="walkthrough video" src="https://img.shields.io/badge/Demo-Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white"  target="_blank" />
   </a>
 
+User Routes:
+```
+https://watch.screencastify.com/v/7DDuB2AvoS7xBQtphK21
+```
+Friend Routes:
+```
+https://watch.screencastify.com/v/5XdXtJyeOcPk80gcnVXW
+```
+Thought Routes:
+```
+https://watch.screencastify.com/v/zVFLiVJJFAsSJ4SDwCnm
+```
+Reaction Routes:
+```
+https://watch.screencastify.com/v/fsB2Q90ujP1MZzCBuk4o
+```
 # Installation
 
 `npm install`
